@@ -10,6 +10,8 @@
 @import url("./mw-thank-you.css");
 
 :root {
+	font-family: 'DM Sans', sans-serif;
+	
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
