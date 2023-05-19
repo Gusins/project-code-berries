@@ -52,28 +52,42 @@
   gap: 20px;
 }
 .steps-order-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .steps-order-item {
-  max-width: 335px;
-  max-height: 112px;
   background-color: #ffffff;
   border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.steps-order-color {
+  display: flex;
+  align-items: center;
+  width: 335px;
+  height: 112px;
+  gap: 14px;
 }
 
 .steps {
   width: 136px;
   height: 48px;
+  padding: 10px;
+  margin-left: 20px;
   border-radius: 200px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.33;
   align-items: center;
   letter-spacing: -0.04em;
+  text-align: center;
 }
 .first-step {
   background-color: #ae1332;
 }
 .step-text {
+  max-width: 145px;
 }
 .second-step {
   background-color: #a1c864;
