@@ -12,7 +12,16 @@
         <div class="mw-thank-you-content">
             <img
             class="mw-thank-you-img"
-            src="./img/mw-thank-you/raspberry@1x.jpg"
+            srcset="
+                ../img/mw-thank-you/raspberry_207.png 207w,
+                ../img/mw-thank-you/raspberry_278.png 207w,
+                ../img/mw-thank-you/raspberry_414.png 207w,
+                ../img/mw-thank-you/raspberry_556.png 207w,           
+
+            "
+            sizes="(min-width: 1280px) 278px,  
+                    (min-width: 599px) 207px, 100vw"
+            src="./img/mw-thank-you/raspberry_278.png"
             alt="Raspberries"
             width="278" 
             height="239"      
