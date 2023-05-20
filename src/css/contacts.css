@@ -1,14 +1,13 @@
 :root{
     /* colors */
-    --write: #FFFFFF;
-    --black: #000000;
-    --red: #AE1332;
-    --green: #A4CB66;
-    --yellow: #F5CE13;
-    --contacts-btn-bg-cl: #9DC262;
+    --color-text: #FFFFFF;
+    --second-text-color: #000000;
+    --brand-color: #AE1332;
+    --color-hover: #A4CB66;
+    --accent-color: #F5CE13;
+    --second-accent-color: #9DC262;
     --contacts-btn-cl: #FFFFFF;
     --contacts-btn-bg-activ: #FFFFFF;
-    --contacts-btn-cl-activ: #9DC262;
 }
 
 
@@ -73,7 +72,7 @@ img {
 
 
 .contacts{
-    background-color: var(--red);
+    background-color: var(--brand-color);
 }
 
 
@@ -92,7 +91,7 @@ img {
     font-size: 32px;
     line-height: 1;
 
-    color:var(--write)
+    color:var(--color-text)
  
 }
 
@@ -175,7 +174,7 @@ img {
 
     margin: 0 auto;
     margin-bottom: 80px;
-    color: var(--write);
+    color: var(--color-text);
 }
 
 .contacts-form{
@@ -194,7 +193,7 @@ img {
     background-color: transparent;
     outline: transparent;
     border: none;
-    color: #fff;
+    color: var(--color-text);
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 24px;
@@ -206,14 +205,12 @@ img {
 }
 
 .contacts-input:not(:placeholder-shown):required:valid {
-    border-color: #9DC162;
+    border-color: var(--second-accent-color);
   }
 
 .contacts-input:not(:placeholder-shown):required:invalid {
     border-color: red;
   }
-
-
 
 .contacts-btn{
     position: absolute;
@@ -224,10 +221,10 @@ img {
     height: 48px;
     justify-content: center;
     align-items: center;
-    color: var(--write);
+    color: var(--color-text);
     padding: 15px 35px;
     
-    background-color: var(--contacts-btn-bg-cl);
+    background-color: var(--color-hover);
     border-radius: 100px;
     border: none;
 
@@ -239,5 +236,5 @@ img {
 .contacts-btn:hover,
 .contacts-btn:focus{
     background-color: var(--contacts-btn-bg-activ);
-    color: var(--contacts-btn-cl-activ);
+    color: var(--color-hover);
 }
