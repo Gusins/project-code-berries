@@ -2,9 +2,12 @@
 	<div class="container">
 		<nav class="navigation">
 			<ul class="navigation-list">
-				<li class="navigation-items"><a href="#" class="navigation-items-link">How It Works</a></li>
-				<li class="navigation-items"><a href="#" class="navigation-items-link">Fruits</a></li>
-				<li class="navigation-items"><a href="#" class="navigation-items-link">Contacts</a></li>
+				<li class="navigation-items"><a href="#"
+						class="navigation-items-link">How It Works</a></li>
+				<li class="navigation-items"><a href="#"
+						class="navigation-items-link">Fruits</a></li>
+				<li class="navigation-items"><a href="#"
+						class="navigation-items-link">Contacts</a></li>
 			</ul>
 			<a href="" class="logo">
 				<svg class="logo-svg" width="16" height="16">
@@ -17,11 +20,27 @@
 					<use href="../img/icon.svg#basket"></use>
 				</svg>
 			</a>
-			<a href="" class="navigation-burger">
+			<button class="navigation-burger button-reset js-open-menu"
+				aria-expanded="false" aria-controls="mobile-menu">
 				<svg class="burger-menu" width="24" height="24">
 					<use href="../img/icon.svg#burger"></use>
 				</svg>
-			</a>
+			</button>
+			<button class="burger button-reset">
+				<div class="burger-line burger-line-first"></div>
+				<div class="burger-line burger-line-second"></div>
+				<div class="burger-line burger-line-third"></div>
+				<div class="burger-line burger-line-fourth"></div>
+			</button>
 		</nav>
 	</div>
+	<!-- =======================================================-_(Mobile menu)_-======================================================= -->
+	<!-- <div class="menu-container js-menu-container" id="mobile-menu">
+		<button class="menu-toggle button-reset js-close-menu">
+			<svg class="close" width="24" height="24">
+				<use href="../img/icon.svg#close"></use>
+			</svg>
+		</button>
+	</div> -->
+	<!-- =======================================================-_(/Mobile menu)_-====================================================== -->
 </header>
