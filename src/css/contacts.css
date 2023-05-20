@@ -46,28 +46,23 @@ img {
     }
 }
 
-@media only screen and (max-width: 767px) {
-  .container {
-    max-width: 375px;
-    margin: 0 auto;
-
-  }
+.container {
+	max-width: 365px;
+	padding: 0 15px;
+	margin: 0 auto;
+	outline: 1px solid black;
 }
 
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    margin: 0 auto;
-  }
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+	.container {
+		max-width: 734px;
+	}
 }
 
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1216px;
-    
-    outline: 2px solid rgb(88, 219, 27);
-    outline-offset: -2px;
-}
+	.container {
+		max-width: 1246px;
+	}
 }
 
 
@@ -235,6 +230,6 @@ img {
 
 .contacts-btn:hover,
 .contacts-btn:focus{
-    background-color: var(--contacts-btn-bg-activ);
+    background-color: white;
     color: var(--color-hover);
 }
