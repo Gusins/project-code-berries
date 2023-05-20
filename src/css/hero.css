@@ -1,4 +1,3 @@
-
 .hero-section {
   min-width: 375px;
   max-width: 1280px;
@@ -7,6 +6,8 @@
 .hero-container {
   min-width: 375px;
   height: 1798px;
+  position: relative;
+
   background: var(--brand-color);
 }
 .hero-img-r {
@@ -30,13 +31,32 @@
   filter: blur(2px);
   transform: rotate(20deg);
 }
+.img-card-div {
+  position: relative;
+  width: 486px;
+  height: 742px;
+  margin: 30px;
+  border-radius: 500px;
+  background: #AE1332;
+}
+.img-card-div::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  background: linear-gradient(359.94deg, #FFFFFF -1.7%, rgba(255, 255, 255, 0.441769) 30.64%, rgba(255, 255, 255, 0) 76.92%);
+  border-radius: 500px;
+  z-index: -1;
+}
 .img-card {
   width: 311px;
   height: 484px;
-
   background: var(--color-text);
   border-radius: 500px;
-  margin-top: 16px;
+  margin-left: 12px;
+  margin-bottom: 13px;
 }
 .hero-title {
   position: absolute;
@@ -76,6 +96,7 @@
   transform: rotate(-14deg);
   border-radius: 500px;
   border: none;
+  z-index: 200;
   margin-top: 408px;
 }
 .btn-hero:hover,
@@ -109,12 +130,43 @@
   margin-top: 237px;
   margin-left: 35px;
 }
+.hero-title-second {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  letter-spacing: -0.04em;
+  color: var(--color-text);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  padding-top: 28px;
+  margin-bottom: 61px;
+}
 .img-water {
   width: 239px;
-  height: 172px;
-  margin-top: 237px;
   margin-left: 5px;
-  padding-top: 103px;
+}
+.hero-text {
+  max-width: 155px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  display: flex;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+.hero-element {
+  width: 125px;
+  display: inline-block;
+  padding: 12px 32px;
+  border: 1px solid #ffffff;
+  border-radius: 1000px;
 }
 .hero-title-three {
   width: 61px;
@@ -133,4 +185,14 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+.basketstr {
+  position: absolute;
+  width: 249px;
+  height: 387px;
+  left: 63px;
+  top: 1427px;
+
+  background: #f5ce13;
+  border-radius: 500px;
 }
