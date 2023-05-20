@@ -1,0 +1,83 @@
+.fruits {
+  background-color: var(--brand-color);
+}
+
+.fruits-begin {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  margin-bottom: 14px;
+}
+
+.fruits-about {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  margin-bottom: 44px;
+}
+
+.fruits-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 0.8;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.fruits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.7;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+.fruits-cost {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+  width: 126px;
+  height: 42px;
+  left: 24px;
+  top: 399px;
+  background: #ffffff;
+  border-radius: 200px;
+  margin-top: 6px;
+}
+.text-cost {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.7;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+  color: #ae1332;
+}
+.fruits-card {
+  width: 335px;
+  height: 465px;
+  left: 0px;
+  top: 0px;
+  background: #f8766b;
+  border-radius: 20px;
+  padding: 64px 22px 24px 22px;
+}
