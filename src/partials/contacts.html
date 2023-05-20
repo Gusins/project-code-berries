@@ -4,8 +4,16 @@
             <ul class="contacts-img-list list">
                 <li class="contacts-img-item">
                     <img
-                    class="contacts-img" 
-                    src="../img/contacts/contacts1_792.jpg" 
+                    class="contacts-img1" 
+                    srcset="../img/contacts/contacts1_335.jpg 335w,
+                            ../img/contacts/contacts1_344.jpg 344w,
+                            ../img/contacts/contacts1_792.jpg 792w,
+                            ../img/contacts/contacts1_670.jpg 670w,
+                            ../img/contacts/contacts1_688.jpg 688w,
+                            ../img/contacts/contacts1_1584.jpg 1584w
+                            "
+                    sizes="(min-width: 1280px) 792px, (min-width: 768px) 344px,(min-width: 375px) 335px, 100vw"
+                    src="../img/contacts/imgc1.jpg" 
                     alt="melon"
                     width="792"
                     height="502"
@@ -13,8 +21,14 @@
                 </li>
                 <li class="contacts-img-item">
                     <img
-                    class="contacts-img" 
-                    src="../img/contacts/contacts2_400.jpg" 
+                    class="contacts-img2" 
+                    srcset="../img/contacts/contacts2_344.jpg 344w,
+                            ../img/contacts/contacts2_400.jpg 400w,
+                            ../img/contacts/contacts2_688.jpg 688w,
+                            ../img/contacts/contacts2_800.jpg 800w
+                            "
+                    sizes="(min-width: 1280px) 400px, (min-width: 768px) 344px, 100vw"
+                    src="../img/contacts/imgc2.jpg" 
                     alt="prunes"
                     width="400"
                     height="502"
@@ -24,15 +38,15 @@
         <div class="contacts-description">
             <p class="contacts-text">Our boxes are packed with delicious, nutritious fruits and vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
             <form class="contacts-form" name="contacts-form">
-                
+                <label class="contacts-field">
                     <input 
                     class="contacts-input" 
                     type="email" 
-                    name="Enter email..."
-                    placeholder="E-mail"
-                    required> 
-                
-                <button class="contacts-btn" type="submit">Send</button>
+                    name="email"
+                    placeholder="Enter email..."
+                    required>
+                    <button class="contacts-btn" type="submit">Send</button>
+                </label>
             </form>
         </div>
     </div>
