@@ -31,7 +31,7 @@ img {
 }
 
 .sections{
-    padding-bottom:80px;
+  padding-bottom:80px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -41,9 +41,9 @@ img {
 }
 
 @media only screen and (min-width: 1200px) {
-    .sections {
-      padding-bottom:150px;
-    }
+  .sections {
+    padding-bottom:150px;
+  }
 }
 
 .container {
@@ -65,31 +65,27 @@ img {
 	}
 }
 
-
 .contacts{
-    background-color: var(--brand-color);
+  background-color: var(--brand-color);
 }
-
 
 .contacts-title{
-    display: flex;
-    max-width: 335px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-    margin: 0 auto;
+  display: flex;
+  max-width: 335px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  margin: 0 auto;
 
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 1;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
 
-    color:var(--color-text)
- 
+  color:var(--color-text);
 }
-
 
 @media only screen and (min-width: 768px) {
   .contacts-title {
@@ -101,15 +97,15 @@ img {
 
 @media only screen and (min-width: 1280px) {
     .contacts-title {
-        width: 740px;
+      width: 740px;
       font-size: 64px;
     }
   }
 
 
 .contacts-img-list{
-    margin-bottom: 80px;
-
+  margin-bottom: 80px;
+  z-index: 2;
 }
 
 @media only screen and (min-width: 768px) {
