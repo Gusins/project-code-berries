@@ -1,5 +1,5 @@
 .how-it-works-section {
-  background-color: #ae1332;
+  background-color: var(--brand-color);
   min-width: 320px;
   max-width: 375px;
 }
@@ -84,7 +84,7 @@
   text-align: center;
 }
 .first-step {
-  background-color: #ae1332;
+  background-color: var(--brand-color);
 }
 .step-text {
   max-width: 145px;
