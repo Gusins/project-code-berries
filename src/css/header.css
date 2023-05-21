@@ -11,6 +11,9 @@
 	align-items: center;
 	gap: 20px;
 }
+.header{
+	background-color: var(--color-text);
+}
 
 .logo {
 	display: inline-flex;
