@@ -2,8 +2,6 @@
   background-color: var(--brand-color);
 }
 
-.how-it-works-container {
-}
 .order-fruit-container {
   margin-bottom: 44px;
 
@@ -13,6 +11,13 @@
   color: #ffffff;
 
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+@media only screen and (min-width: 1280px) {
+  .order-fruit-container {
+    max-width: 635px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .order-fruit-title {
   margin-bottom: 14px;
@@ -31,10 +36,18 @@
   font-size: 14px;
   line-height: 1.29;
 }
+@media only screen and (min-width: 768px) {
+  .order-fruit-text {
+    padding: 0 112px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .order-fruit-text {
+    padding: 0 74px;
+  }
+}
 .steps-order-container {
   display: flex;
-  /* flex-direction: column;
-  justify-content: center; */
   align-items: center;
   gap: 20px;
   margin-bottom: 44px;
@@ -54,11 +67,13 @@
 @media only screen and (min-width: 768px) {
   .steps-order-list {
     gap: 24px;
+    flex-direction: column;
   }
 }
 @media only screen and (min-width: 1280px) {
   .steps-order-list {
     flex-wrap: nowrap;
+    flex-direction: row;
   }
 }
 .steps-order-item {
@@ -80,7 +95,7 @@
 }
 
 .steps {
-  width: 136px;
+  min-width: 136px;
   height: 48px;
   padding: 10px;
   margin-left: 20px;
@@ -91,20 +106,18 @@
   align-items: center;
   letter-spacing: -0.04em;
   text-align: center;
+  color: #ffffff;
 }
 .first-step {
   background-color: var(--brand-color);
 }
 .step-text {
-  max-width: 145px;
+  padding: 20px 20px 20px 10px;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.29;
 }
-@media only screen and (min-width: 768px) {
-  .step-text {
-    max-width: 199px;
-  }
-}
+
 .second-step {
   background-color: var(--color-hover);
 }
