@@ -2,14 +2,14 @@
 	<div class="container">
 		<nav class="navigation">
 			<ul class="navigation-list">
-				<li class="navigation-items"><a href="#"
-						class="navigation-items-link">How It Works</a></li>
-				<li class="navigation-items"><a href="#"
+				<li class="header-items"><a href="#" class="navigation-items-link">How
+						It Works</a></li>
+				<li class="header-items"><a href="#"
 						class="navigation-items-link">Fruits</a></li>
-				<li class="navigation-items"><a href="#"
+				<li class="header-items"><a href="#contacts"
 						class="navigation-items-link">Contacts</a></li>
 			</ul>
-			<a href="" class="logo">
+			<a href="../index.html" class="logo">
 				<svg class="logo-svg" width="16" height="16">
 					<use href="../img/icon.svg#logo"></use>
 				</svg>
@@ -20,13 +20,8 @@
 					<use href="../img/icon.svg#basket"></use>
 				</svg>
 			</a>
-			<button class="navigation-burger button-reset js-open-menu"
-				aria-expanded="false" aria-controls="mobile-menu">
-				<svg class="burger-menu" width="24" height="24">
-					<use href="../img/icon.svg#burger"></use>
-				</svg>
-			</button>
-			<button class="burger button-reset">
+			<button class="burger button-reset js-open-menu" aria-expanded="false"
+				aria-controls="mobile-menu">
 				<div class="burger-line burger-line-first"></div>
 				<div class="burger-line burger-line-second"></div>
 				<div class="burger-line burger-line-third"></div>
@@ -35,12 +30,31 @@
 		</nav>
 	</div>
 	<!-- =======================================================-_(Mobile menu)_-======================================================= -->
-	<!-- <div class="menu-container js-menu-container" id="mobile-menu">
-		<button class="menu-toggle button-reset js-close-menu">
-			<svg class="close" width="24" height="24">
-				<use href="../img/icon.svg#close"></use>
-			</svg>
-		</button>
-	</div> -->
+	<div class="menu-container js-menu-container" id="mobile-menu">
+		<ul class="navigation-mobile-list">
+			<li class="navigation-items">
+				<a href="#" class="navigation-items-link">
+					How It Works
+				</a>
+			</li>
+			<li class="navigation-items">
+				<a href="#" class="navigation-items-link">
+					Fruits
+				</a>
+			</li>
+			<li class="navigation-items">
+				<a href="#contacts" class="navigation-items-link">
+					Contacts
+				</a>
+			</li>
+			<li class="navigation-items">
+				<a href="#" class="navigation-items-link">
+					<svg class="basket" width="28" height="28">
+						<use href="../img/icon.svg#basket"></use>
+					</svg>
+				</a>
+			</li>
+		</ul>
+	</div>
 	<!-- =======================================================-_(/Mobile menu)_-====================================================== -->
 </header>
