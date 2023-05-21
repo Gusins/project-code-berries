@@ -1,5 +1,5 @@
 .how-it-works-section {
-  background-color: #ae1332;
+  background-color: var(--brand-color);
 }
 
 .how-it-works-container {
@@ -72,14 +72,14 @@
   text-align: center;
 }
 .first-step {
-  background-color: #ae1332;
+  background-color: var(--brand-color);
 }
 .step-text {
   max-width: 145px;
 }
 .second-step {
-  background-color: #a1c864;
+  background-color: var(--color-hover);
 }
 .third-step {
-  background-color: #f5ce13;
+  background-color: var(--accent-color);
 }
