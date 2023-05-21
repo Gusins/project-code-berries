@@ -1,21 +1,18 @@
-.sections{
+.contacts-sections{
+  background-color: var(--brand-color);
   padding-bottom:80px;
 }
 
 @media only screen and (min-width: 768px) {
-  .sections {
+  .contacts-sections {
     padding-bottom:144px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .sections {
+  .contacts-sections {
     padding-bottom:150px;
   }
-}
-
-.contacts{
-  background-color: var(--brand-color);
 }
 
 .contacts-wrapper{
@@ -29,15 +26,15 @@
 
   display: flex;
   max-width: 335px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
   align-items: center;
   text-align: center;
   letter-spacing: -0.04em;
   text-transform: uppercase;
   margin: 0 auto;
-
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1;
 
   color:var(--color-text);
   z-index: 1;
