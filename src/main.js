@@ -1,6 +1,6 @@
 // import './.....'
 import './js/mobile-menu.js'
-
+import './js/modal-thank-you.js'
 (() => {
     const refs = {
       openModalBtn: document.querySelector("[data-modal-open]"),

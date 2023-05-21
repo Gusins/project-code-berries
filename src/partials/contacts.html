@@ -1,55 +1,78 @@
 <section class="contacts-sections">
-    <div class="contacts-container container">
-        <div class="contacts-wrapper">
-            <h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
-            <ul class="contacts-img-list">
-            <li class="contacts-img-item">
-                <img
-                class="contacts-img1" 
-                srcset="../img/contacts/contacts1_335.jpg 335w,
-                        ../img/contacts/contacts1_344.jpg 344w,
-                        ../img/contacts/contacts1_792.jpg 792w,
-                        ../img/contacts/contacts1_670.jpg 670w,
-                        ../img/contacts/contacts1_688.jpg 688w,
-                        ../img/contacts/contacts1_1584.jpg 1584w
-                        "
-                sizes="(min-width: 1280px) 792px, (min-width: 768px) 344px,(min-width: 375px) 335px, 100vw"
-                src="../img/contacts/contacts1_792.jpg" 
-                alt="melon"
-                width="792"
-                height="502"
-                loading="lazy">
-            </li>
-            <li class="contacts-img-item">
-                <img
-                class="contacts-img2" 
-                srcset="../img/contacts/contacts2_344.jpg 344w,
-                        ../img/contacts/contacts2_400.jpg 400w,
-                        ../img/contacts/contacts2_688.jpg 688w,
-                        ../img/contacts/contacts2_800.jpg 800w
-                        "
-                sizes="(min-width: 1280px) 400px, (min-width: 768px) 344px, 100vw"
-                src="../img/contacts/contacts2_400.jpg" 
-                alt="prunes"
-                width="400"
-                height="502"
-                loading="lazy">
-            </li>
-            </ul>
-        </div>
-        <div class="contacts-description">
-            <p class="contacts-text">Our boxes are packed with delicious, nutritious fruits and vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
-            <form class="contacts-form" name="contacts-form">
-                <label class="contacts-field">
-                    <input 
-                    class="contacts-input" 
-                    type="email" 
-                    name="email"
-                    placeholder="Enter email..."
-                    required>
-                    <button class="contacts-btn" type="button" data-modal-open>Send</button>
-                </label>
-            </form>
-        </div>
-    </div>
-  </section>
+	<div class="contacts-container container">
+		<div class="contacts-wrapper">
+			<h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
+			<ul class="contacts-img-list">
+				<li class="contacts-img-item">
+					<picture>
+						<!-- Desktop screen -->
+						<source media="(min-width: 1280px)"
+							srcset="../img/contacts/melon_desk@1x.webp 1x, ../img/contacts/melon_desk@2x.webp 2x"
+							type="image/webp" />
+						<source media="(min-width: 1280px)"
+							srcset="../img/contacts/melon_desk@1x.jpg 1x, ../img/contacts/melon_desk@2x.jpg 2x"
+							type="image/jpg" />
+						<!-- Tablet screen -->
+						<source media="(min-width: 768px)"
+							srcset="../img/contacts/melon_tablet@1x.webp 1x, ../img/contacts/melon_tablet@2x.webp 2x"
+							type="image/webp" />
+						<source media="(min-width: 768px)"
+							srcset="../img/contacts/melon_tablet@1x.jpg 1x, ../img/contacts/melon_tablet@2x.jpg 2x"
+							type="image/jpg" />
+						<!-- Mobile screen -->
+						<source media="(max-width: 767px)"
+							srcset="../img/contacts/melon_mobile@1x.webp 1x, ../img/contacts/melon_mobile@2x.webp 2x"
+							type="image/webp" />
+						<source media="(max-width: 767px)"
+							srcset="../img/contacts/melon_mobile@1x.jpg 1x, ../img/contacts/melon_mobile@2x.jpg 2x"
+							type="image/jpg" />
+						<img class="card-img" src="../img/contacts/melon_desk@1x.jpg"
+							alt="melon" width="792" height="502" loading="lazy" />
+					</picture>
+				</li>
+				<li class="contacts-img-item">
+					<picture>
+						<!-- Desktop screen -->
+						<source media="(min-width: 1280px)"
+							srcset="../img/contacts/blueberry_desk@1x.webp 1x, ../img/contacts/blueberry_desk@2x.webp 2x"
+							type="image/webp" />
+						<source media="(min-width: 1280px)"
+							srcset="../img/contacts/blueberry_desk@1x.jpg 1x, ../img/contacts/blueberry_desk@2x.jpg 2x"
+							type="image/jpg" />
+						<!-- Tablet screen -->
+						<source media="(min-width: 768px)"
+							srcset="../img/contacts/blueberry_tablet@1x.webp 1x, ../img/contacts/blueberry_tablet@2x.webp 2x"
+							type="image/webp" />
+						<source media="(min-width: 768px)"
+							srcset="../img/contacts/blueberry_tablet@1x.jpg 1x, ../img/contacts/blueberry_tablet@2x.jpg 2x"
+							type="image/jpg" />
+						<!-- Mobile screen -->
+						<source media="(max-width: 767px)"
+							srcset="../img/contacts/blueberry_mobile@1x.webp 1x, ../img/contacts/blueberry_mobile@2x.webp 2x"
+							type="image/webp" />
+						<source media="(max-width: 767px)"
+							srcset="../img/contacts/blueberry_mobile@1x.jpg 1x, ../img/contacts/blueberry_mobile@2x.jpg 2x"
+							type="image/jpg" />
+						<img class="contacts-img2"
+							src="../img/contacts/blueberry_desk@1x.jpg" alt="blueberry"
+							width="400" height="502" loading="lazy" />
+					</picture>
+				</li>
+			</ul>
+		</div>
+		<div class="contacts-description">
+			<p class="contacts-text">Our boxes are packed with delicious, nutritious
+				fruits and vegetables, perfect for anyone looking to eat healthier or
+				support local farmers. Order your box today and start enjoying the best
+				that nature has to offer!</p>
+			<form class="contacts-form" name="contacts-form">
+				<label class="contacts-field">
+					<input class="contacts-input" type="email" name="email"
+						placeholder="Enter email..." required>
+					<button class="contacts-btn" type="button"
+						data-modal-open>Send</button>
+				</label>
+			</form>
+		</div>
+	</div>
+</section>
