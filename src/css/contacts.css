@@ -69,9 +69,15 @@ img {
   background-color: var(--brand-color);
 }
 
-.contacts-title{
+.contacts-wrapper{
   position: relative;
-  bottom: -43px;
+}
+
+
+.contacts-title{
+  position: absolute;
+  top: 0;
+  left: auto;
 
   display: flex;
   max-width: 335px;
@@ -92,37 +98,39 @@ img {
 
 @media only screen and (min-width: 768px) {
   .contacts-title {
-    bottom: -29px;
     max-width: none;
     width: 648px;
     font-size: 54px;
+    left: 41px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
     .contacts-title {
-      bottom: -39px;
       width: 740px;
       font-size: 64px;
+      left: 238px;
     }
   }
 
 
 .contacts-img-list{
   margin-bottom: 80px;
-  z-index: 2;
+  padding-top: 53px;
 }
 
 @media only screen and (min-width: 768px) {
   .contacts-img-list {
     display: flex;
     gap: 16px;
+    padding-top: 79px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .contacts-img-list {
     gap: 24px;
+    padding-top: 89px;
   }
 }
 
