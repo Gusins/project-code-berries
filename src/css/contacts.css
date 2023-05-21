@@ -14,18 +14,6 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
-	.container {
-		max-width: 734px;
-	}
-}
-
-@media only screen and (min-width: 1280px) {
-	.container {
-		max-width: 1246px;
-	}
-}
-
 .contacts{
   background-color: var(--brand-color);
 }
@@ -33,7 +21,6 @@
 .contacts-wrapper{
   position: relative;
 }
-
 
 .contacts-title{
   position: absolute;
@@ -67,11 +54,11 @@
 
 @media only screen and (min-width: 1280px) {
     .contacts-title {
-      width: 740px;
-      font-size: 64px;
-      left: 238px;
-    }
+    width: 740px;
+    font-size: 64px;
+    left: 238px;
   }
+}
 
 
 .contacts-img-list{
@@ -101,18 +88,18 @@
 }
 
 .contacts-img1{
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .contacts-img2{
-    display: none;
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
   .contacts-img2 {
     display: block;
     border-radius: 20px;
-    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -122,10 +109,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .contacts-description {
-      display: block;
-    }
+  .contacts-description {
+    display: block;
   }
+}
 
 .contacts-text{
   width: 492px;
@@ -140,7 +127,6 @@
 }
 
 .contacts-form{
-  
   display: flex;
   width: 292px;
   margin: 0 auto;
@@ -167,34 +153,34 @@
 }
 
 .contacts-input:not(:placeholder-shown):required:valid {
-    border-color: var(--second-accent-color);
-  }
+  border-color: var(--second-accent-color);
+}
 
 .contacts-input:not(:placeholder-shown):required:invalid {
-    border-color: red;
-  }
+  border-color: red;
+}
 
 .contacts-btn{
-    position: absolute;
-    top: 1px;
-    right: 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--color-text);
-    padding: 15px 35px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  padding: 15px 35px;
     
-    background-color: var(--color-hover);
-    border-radius: 100px;
-    border: none;
+  background-color: var(--color-hover);
+  border-radius: 100px;
+  border: none;
 
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-btn:hover,
 .contacts-btn:focus{
-    background-color: white;
-    color: var(--color-hover);
+  background-color: white;
+  color: var(--color-hover);
 }
