@@ -32,21 +32,18 @@
 }
 
 .footer-logo {
-display: block;
-    max-width: 349px;
+max-width: 349px;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
 }
 
-.footer-logo-icon-txt {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer-logo-icon {
+    display: inline-flex;
     gap: 8px;
     margin-top: 20px;
 }
-
 .footer-logo-text {
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.29;
