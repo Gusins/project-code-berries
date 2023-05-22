@@ -2,28 +2,34 @@
     background: #ffff;
 }
 
-.container {
+.footer-container {
     padding: 80px 32px;
     display: flex;
     justify-content: space-between;
 }
 
-/* @media only screen  and (min-width:1280px)
-{
-    
-} */
-
-
 @media only screen  and (max-width:767px)
 {
-    .container {
+    .footer-container {
     padding: 80px 20px;
    flex-direction: column;
+   flex-wrap: wrap;
     align-items: center;
     }
     
 }
 
+@media only screen  and (min-width:768px) and (max-width:1279px)
+{
+    .footer-container {
+        display: inline-flex;
+        height: 370px;
+    padding: 80px 20px;
+   flex-direction: column;
+   flex-wrap: wrap;
+    align-items: center;
+    }
+}
 
 .footer-logo {
 display: block;
@@ -54,35 +60,24 @@ display: block;
     gap: 20px;
     align-items: center;
     text-align: center;
-
 }
 
-@media only screen  and (max-width: 767px)
+@media only screen  and (max-width:767px)
 {
    .footer-menu {
   margin-top: 24px;
   margin-bottom: 44px;
-
-}
-    
-@media only screen and (min-width: 768px) and (max-width: 1279px)
-    {
-        .container{
-            position: relative;
-        }
-
+} 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1279px)
-    {
-        .footer-menu {
-            position: absolute;
-            top: 377px;
-            left: 103px;
-        } 
-    }
-
+@media only screen  and (min-width:768px) and (max-width:1279px)
+{
+  .footer-menu {
+  margin-top: 80px;
+  margin-bottom: 50px;
+} 
 }
+
 .footer-menu-item {
     font-family: 'DM Sans';
     font-style: normal;
@@ -99,24 +94,13 @@ display: block;
 
 }
 
-@media only screen  and (min-width:768px) and (max-width:1279px)
-{
-    
-.footer-media-address {
-    position: absolute;
-    top: 118px;
-    right: 32px;
-
-}
-}
-
 .footer-socmedia {
     display: flex;
     gap: 20px;
     margin-bottom: 40px;
 }
 
-@media only screen  and (max-width:767px)
+@media only screen  and (max-width:1279px)
 {
   .footer-socmedia {
     margin-bottom: 44px;
@@ -128,6 +112,11 @@ display: block;
     height: 44px;
     border: 1px solid #AE1332;
     border-radius: 10px;
+}
+
+.footer-socmedia-icon:hover
+{
+background: rgba(174, 19, 50, 0.1);
 }
 
 @media only screen  and (max-width:767px)
@@ -150,6 +139,14 @@ display: block;
 
 .footer-icon-color{
     fill: #AE1332;
+}
+
+@media only screen  and (min-width:768px) and (max-width:1279px)
+{
+    .footer-media-address {
+   margin-top: 38px;
+   margin-left: 171px;
+}
 }
 
 .footer-point {
