@@ -98,11 +98,10 @@ max-width: 349px;
 	margin-bottom: 40px;
 }
 
-@media only screen  and (max-width:1279px)
-{
-  .footer-socmedia {
-    margin-bottom: 44px;
-
+@media only screen  and (max-width:1279px){
+ .footer-socmedia {
+   margin-bottom: 44px;
+  }
 }
 
 .footer-socmedia-icon {
