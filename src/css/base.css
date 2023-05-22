@@ -14,7 +14,7 @@
 	border: none;
 	background-color: transparent;
 }
-body.mobile_menu_open{
+body.modal-open{
 	overflow: hidden;
 }
 /*==============================================================================================================================================
