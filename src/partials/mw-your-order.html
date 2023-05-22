@@ -1,6 +1,6 @@
 <div class="mw-your-order">
   <div class="heder">
-    <h1 class="title">Your Order</h1>
+    <h2 class="title">Your Order</h2>
     <button class="modal-close-btn" type="button">
       <svg class="modal-icon" width="24" height="24">
         <use href="../img/icon.svg#close"></use>
@@ -17,14 +17,69 @@
         id="Strawberry_card"
       />
       <div class="first-card">
-        <h2 class="card-title">Strawberry Basket</h2>
+        <h3 class="card-title">Strawberry Basket</h3>
         <p class="card-text">Plant</p>
-        <img
-          class="image-card"
-          src="../img/Img-mw-your-order/strawberry.png"
-          alt="strawberry"
-          width="88"
-        />
+        <picture>
+          <!-- Desktop -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/Img-mw-your-order/desktop/strawberry_desk@1x.webp 1x,
+              ./img/Img-mw-your-order/desktop/strawberry_desk@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/Img-mw-your-order/desktop/strawberry_desk@1x.png 1x,
+              ./img/Img-mw-your-order/desktop/strawberry_desk@2x.png 2x
+            "
+            type="image/png"
+          />
+          <!-- Tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/Img-mw-your-order/tablet/strawberry_tab@1x.webp 1x,
+              ./img/Img-mw-your-order/tablet/strawberry_tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/Img-mw-your-order/tablet/strawberry_tab@1x.png 1x,
+              ./img/Img-mw-your-order/tablet/strawberry_tab@2x.png 2x
+            "
+            type="image/png"
+          />
+          <!-- Modile -->
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/Img-mw-your-order/mobile/strawberry_mob@1x.webp 1x,
+              ./img/Img-mw-your-order/mobile/strawberry_mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/Img-mw-your-order/mobile/strawberry_mob@1x.png 1x,
+              ./img/Img-mw-your-order/mobile/strawberry_mob@2x.png 2x
+            "
+            type="image/png"
+          />
+          <img
+            class="image-card strawberry-img"
+            src="../img/Img-mw-your-order/desktop/strawberry_desk@1x.png"
+            alt="strawberry"
+            width="173"
+            height="196"
+            loading="lazy"
+          />
+        </picture>
       </div>
     </li>
     <li class="second-card-list list">
@@ -36,14 +91,69 @@
         id="Apple_card"
       />
       <div class="second-card">
-        <h2 class="card-title">Apple Basket</h2>
+        <h3 class="card-title">Apple Basket</h3>
         <p class="card-text">Plant</p>
-        <img
-          class="image-card"
-          src="../img/Img-mw-your-order/apple.png"
-          alt="apple"
-          width="106"
-        />
+        <picture>
+          <!-- Desktop -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/Img-mw-your-order/desktop/apple_desk@1x.webp 1x,
+              ./img/Img-mw-your-order/desktop/apple_desk@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/Img-mw-your-order/desktop/apple_desk@1x.png 1x,
+              ./img/Img-mw-your-order/desktop/apple_desk@2x.png 2x
+            "
+            type="image/png"
+          />
+          <!-- Tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/Img-mw-your-order/tablet/apple_tab@1x.webp 1x,
+              ./img/Img-mw-your-order/tablet/apple_tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/Img-mw-your-order/tablet/apple_tab@1x.png 1x,
+              ./img/Img-mw-your-order/tablet/apple_tab@2x.png 2x
+            "
+            type="image/png"
+          />
+          <!-- Modile -->
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/Img-mw-your-order/mobile/apple_mob@1x.webp 1x,
+              ./img/Img-mw-your-order/mobile/apple_mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/Img-mw-your-order/mobile/apple_mob@1x.png 1x,
+              ./img/Img-mw-your-order/mobile/apple_mob@2x.png 2x
+            "
+            type="image/png"
+          />
+          <img
+            class="image-card apple-img"
+            src="../img/Img-mw-your-order/desktop/apple_desk@1x.png"
+            alt="apple"
+            width="229"
+            height="196"
+            loading="lazy"
+          />
+        </picture>
       </div>
     </li>
     <li class="third-card-list list">
@@ -55,49 +165,106 @@
         id="Fruits_cadr"
       />
       <div class="third-card">
-        <h2 class="card-title">Fruits Basket</h2>
+        <h3 class="card-title">Fruits Basket</h3>
         <p class="card-text">Plant</p>
-        <img
-          class="image-card"
-          src="../img/Img-mw-your-order/fruits.png"
-          alt="fruits"
-          width="107"
-        />
+        <picture>
+          <!-- Desktop -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/Img-mw-your-order/desktop/fruits_desk@1x.webp 1x,
+              ./img/Img-mw-your-order/desktop/fruits_desk@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/Img-mw-your-order/desktop/fruits_desk@1x.png 1x,
+              ./img/Img-mw-your-order/desktop/fruits_desk@2x.png 2x
+            "
+            type="image/png"
+          />
+          <!-- Tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/Img-mw-your-order/tablet/fruits_tab@1x.webp 1x,
+              ./img/Img-mw-your-order/tablet/fruits_tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/Img-mw-your-order/tablet/fruits_tab@1x.png 1x,
+              ./img/Img-mw-your-order/tablet/fruits_tab@2x.png 2x
+            "
+            type="image/png"
+          />
+          <!-- Modile -->
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/Img-mw-your-order/mobile/fruits_mob@1x.webp 1x,
+              ./img/Img-mw-your-order/mobile/fruits_mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/Img-mw-your-order/mobile/fruits_mob@1x.png 1x,
+              ./img/Img-mw-your-order/mobile/fruits_mob@2x.png 2x
+            "
+            type="image/png"
+          />
+          <img
+            class="image-card fruits-img"
+            src="../img/Img-mw-your-order/desktop/fruits_desk@1x.png"
+            alt="fruits"
+            width="229"
+            height="196"
+            loading="lazy"
+          />
+        </picture>
       </div>
     </li>
   </ul>
-  <form class="modal-form" name="modal_form" autocomplete="off">
-    <input
-      class="modal-form-input"
-      type="name"
-      name="user_name"
-      placeholder="Enter full name..."
-      required
-      minlength="5"
-    />
-    <input
-      class="modal-form-input"
-      type="email"
-      name="user_email"
-      placeholder="Enter email..."
-      required
-    />
-    <input
-      class="modal-form-input"
-      type="card"
-      name="user_card"
-      placeholder="Enter card.."
-      required
-      pattern="\d*"
-      maxlength="19"
-    />
-    <textarea
-      class="modal-form-comments"
-      name="user-comments"
-      id="user-comments"
-      rows="10"
-      placeholder="Enter comments..."
-    ></textarea>
-    <button class="form-btn" type="submit">Submit</button>
-  </form>
+  <div class="footer-window">
+    <form class="modal-form" name="modal_form" autocomplete="off">
+      <input
+        class="modal-form-input"
+        type="name"
+        name="user_name"
+        placeholder="Enter full name..."
+        required
+        minlength="5"
+      />
+      <input
+        class="modal-form-input"
+        type="email"
+        name="user_email"
+        placeholder="Enter email..."
+        required
+      />
+      <input
+        class="modal-form-input"
+        type="card"
+        name="user_card"
+        placeholder="Enter card.."
+        required
+        pattern="/d*"
+        maxlength="19"
+      />
+      <textarea
+        class="modal-form-comments"
+        name="user-comments"
+        id="user-comments"
+        rows="10"
+        placeholder="Enter comments..."
+      ></textarea>
+      <button class="form-btn" type="submit">Submit</button>
+    </form>
+  </div>
 </div>
