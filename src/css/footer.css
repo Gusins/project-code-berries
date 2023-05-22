@@ -57,16 +57,7 @@ display: block;
 
 }
 
-@media only screen  and (min-width:768px) and (max-width:1279px)
-{
-   .footer-menu {
-    position: absolute;
-    top: 377px;
-    left: 103px;
-} 
-}
-
-@media only screen  and (max-width:767px)
+@media only screen  and (max-width: 767px)
 {
    .footer-menu {
   margin-top: 24px;
@@ -74,8 +65,24 @@ display: block;
 
 }
     
+@media only screen and (min-width: 768px) and (max-width: 1279px)
+    {
+        .container{
+            position: relative;
+        }
+
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1279px)
+    {
+        .footer-menu {
+            position: absolute;
+            top: 377px;
+            left: 103px;
+        } 
+    }
+
+}
 .footer-menu-item {
     font-family: 'DM Sans';
     font-style: normal;
@@ -94,6 +101,7 @@ display: block;
 
 @media only screen  and (min-width:768px) and (max-width:1279px)
 {
+    
 .footer-media-address {
     position: absolute;
     top: 118px;
