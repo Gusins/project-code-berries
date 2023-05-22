@@ -76,7 +76,7 @@
   text-align: center;
   color: var(--color-text);
   background-image: url(../img/hero/strawberry_mob@2x.webp),
-    url(../img/hero/banana_mob@2x.webp);
+    url(/img/hero/banana_mob@2x.webp);
   background-size: 56px, 66px;
   background-position: top 7px left 269px, top 58px left 2px;
   background-repeat: no-repeat;
