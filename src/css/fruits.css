@@ -195,7 +195,14 @@
 .modal-but:hover,
 .modal-but:focus {
   background: #ffffff;
+}
+
+.modal-but:hover p {
   color: #9dc262;
+}
+
+.modal-but:hover svg {
+  fill: #9dc262;
 }
 
 @media only screen and (min-width: 768px) {
@@ -221,19 +228,9 @@
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   transform: rotate(-14deg);
 }
-
-.text-but:hover,
-.text-but:focus {
-  color: #9dc262;
-}
-
 .basket-svg {
   display: flex;
   fill: #ffffff;
   margin-right: 6px;
   margin-top: 20px;
-}
-.basket-svg:hover,
-.basket-svg:focus {
-  fill: #9dc262;
 }
