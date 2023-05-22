@@ -5,16 +5,13 @@
 .hero-section > .container {
   position: relative;
   padding-top: 104px;
-  background-image: url(../img/hero/strawberry_mob@2x.webp);
-  background-size: 56px;
-  background-position: top 47px left 272px;
-  background-repeat: no-repeat;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .hero-section > .container {
     background-image: url(../img/hero/banana_tab@2x.webp);
     background-size: 132px;
     background-position: top 180px left 25px;
+    background-repeat: no-repeat;
   }
 }
 .hero-img-list {
@@ -78,13 +75,14 @@
   letter-spacing: -0.04em;
   text-align: center;
   color: var(--color-text);
-  background-image: url(../img/hero/banana_mob@2x.webp);
-  background-size: 66px;
-  background-position: top 70px left 13px;
+  background-image: url(../img/hero/strawberry_mob@2x.webp),
+    url(../img/hero/banana_mob@2x.webp);
+  background-size: 56px, 66px;
+  background-position: top 7px left 269px, top 58px left 2px;
   background-repeat: no-repeat;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   z-index: 200;
-  margin-top: -60px;
+  margin-top: -36px;
 }
 @media only screen and (min-width: 768px) {
   .hero-title {
@@ -98,6 +96,7 @@
     background-image: url(../img/hero/strawberry_tab@2x.webp);
     background-size: 108px;
     background-position: top 2px left 480px;
+    background-repeat: no-repeat;
     margin-top: -6px;
   }
 }
@@ -234,15 +233,12 @@
 .element-list {
   margin-top: 24px;
   margin-left: 32px;
+
 }
 @media only screen and (min-width: 768px) {
   .element-list {
     max-width: 266px;
     max-height: 84px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
     margin-top: -166px;
     margin-left: 410px;
   }
@@ -293,7 +289,7 @@
     width: 249px;
     height: 387px;
     margin-left: 422px;
-    margin-top: -559px;
+    margin-top: -563px;
   }
 }
 .img-basketstr {
