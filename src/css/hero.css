@@ -5,6 +5,17 @@
 .hero-section > .container {
   position: relative;
   padding-top: 104px;
+  background-image: url(../img/hero/strawberry_mob@2x.webp);
+  background-size: 56px;
+  background-position: top 47px left 272px;
+  background-repeat: no-repeat;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .hero-section > .container {
+    background-image: url(../img/hero/banana_tab@2x.webp);
+    background-size: 132px;
+    background-position: top 180px left 25px;
+  }
 }
 .hero-img-list {
   padding-top: 100px;
@@ -60,48 +71,46 @@
 }
 .hero-title {
   position: absolute;
-  max-width: 335px;
+  max-width: 325px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
   letter-spacing: -0.04em;
+  text-align: center;
   color: var(--color-text);
-  background-image: url(../img/hero/strawberry_mob@2x.webp),
-    url(../img/hero/banana_mob@2x.webp);
-  background-size: 56px, 66px;
-  background-position: top 56px left 260px, top 116px left 13px;
+  background-image: url(../img/hero/banana_mob@2x.webp);
+  background-size: 66px;
+  background-position: top 70px left 13px;
   background-repeat: no-repeat;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  text-align: center;
   z-index: 200;
+  margin-top: -60px;
 }
 @media only screen and (min-width: 768px) {
   .hero-title {
     max-width: 704px;
-    max-height: 168px;
-    left: calc(50% - 704px / 2);
     top: 70px;
     font-size: 50px;
     display: flex;
     align-items: center;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    background-image: url(../img/hero/strawberry_tab@2x.webp),
-      url(../img/hero/banana_tab@2x.webp);
-    background-size: 108px, 132px;
-    background-position: top 34px left 480px, top 126px left 27px;
+    background-image: url(../img/hero/strawberry_tab@2x.webp);
+    background-size: 108px;
+    background-position: top 2px left 480px;
+    margin-top: -6px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .hero-title {
-    width: 898px;
+    max-width: 898px;
     height: 198px;
     top: 124px;
     font-size: 64px;
-    background-image: url(../img/hero/strawberry_desk@2x.webp),
-      url(../img/hero/banana_desk@2x.webp);
-    background-size: 120px, 183px;
-    background-position: top -22px left 596px, top 99px left -10px;
+    text-align: center;
+    background-image: url(../img/hero/strawberry_desk@2x.webp);
+    background-size: 120px;
+    background-position: top -22px left 596px;
   }
 }
 .btn-hero {
@@ -206,6 +215,22 @@
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   margin-left: 66px;
 }
+.hero-element-container {
+  max-width: 265px;
+  max-height: 84px;
+  display: contents;
+}
+@media only screen and (min-width: 768px) {
+  .hero-element-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
 .element-list {
   margin-top: 24px;
   margin-left: 32px;
@@ -268,7 +293,7 @@
     width: 249px;
     height: 387px;
     margin-left: 422px;
-    margin-top: -493px;
+    margin-top: -559px;
   }
 }
 .img-basketstr {
