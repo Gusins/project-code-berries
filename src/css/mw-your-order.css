@@ -26,7 +26,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .mw-your-order {
-    background-image: url(/img/Img-mw-your-order/Girl/Girl_desk471@1x.jpg);
+    background-image: url("/img/Img-mw-your-order/Girl/Girl_desk471@1x.jpg");
     background-repeat: no-repeat;
     background-position-y: bottom;
     background-position-x: right;
@@ -36,7 +36,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .mw-your-order {
-      background-image: url(/img/Img-mw-your-order/Girl/Girl_desk942@2x.jpg);
+      background-image: url("/img/Img-mw-your-order/Girl/Girl_desk942@2x.jpg");
       background-repeat: no-repeat;
       background-position-y: bottom;
       background-position-x: right;
@@ -47,7 +47,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .mw-your-order {
-    background-image: url(../img/Img-mw-your-order/Girl/Girl_tab469@1x.jpg);
+    background-image: url("/img/Img-mw-your-order/Girl/Girl_tab469@1x.jpg");
     background-repeat: no-repeat;
     background-position-y: bottom;
     background-position-x: right;
@@ -57,7 +57,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .mw-your-order {
-      background-image: url(../img/Img-mw-your-order/Girl/Girl_tab938@2x.jpg);
+      background-image: url("/img/Img-mw-your-order/Girl/Girl_tab938@2x.jpg");
       background-repeat: no-repeat;
       background-position-y: bottom;
       background-position-x: right;
