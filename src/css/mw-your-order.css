@@ -328,11 +328,6 @@
     top: 76px;
   }
 }
-.second-card {
-}
-
-.third-card {
-}
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -350,6 +345,7 @@
     left: 40px;
     top: 414px;
   }
+}
 @media only screen and (min-width: 1280px) {
   .modal-form {
     top: 472px;
