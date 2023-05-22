@@ -7,6 +7,12 @@
 	burger.addEventListener('click', () => {
 		burger.classList.toggle('burger-active');
 	});
+	// if (iconMenu.classList.contains('_active')) {
+	// document.body.classList.remove('_lock');
+	// iconMenu.classList.remove('_active');
+	// menubody.classList.remove('_active');
+	// };
+
   const toggleMenu = () => {
     const isMenuOpen =
       openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
@@ -33,3 +39,4 @@
 	});
 	
 })();
+
