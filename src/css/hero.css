@@ -2,13 +2,17 @@
   background: var(--brand-color);
   height: 1814px;
 }
-
+.hero-section > .container {
+  position: relative;
+  padding-top: 104px;
+}
 .hero-img-list {
   padding-top: 100px;
 }
 .gradiend-border {
   width: 335px;
   height: 509px;
+
   position: relative;
   background: transparent;
   padding: 0.5rem 1rem;
@@ -57,10 +61,10 @@
 .hero-title {
   position: absolute;
   max-width: 335px;
-  padding-top: 56px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
+  letter-spacing: -0.04em;
   color: var(--color-text);
   background-image: url(../img/hero/strawberry_mob@2x.webp),
     url(../img/hero/banana_mob@2x.webp);
@@ -141,17 +145,14 @@
   color: var(--color-text);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   max-width: 279px;
-  margin: 546px auto 24px;
+  margin: 44px auto 24px;
 }
 @media only screen and (min-width: 768px) {
   .hero-desc {
+    width: 279px;
     height: 90px;
-    left: 32px;
-    top: 953px;
-    display: flex;
-    align-items: center;
     margin-left: 32px;
-    padding-top: 168px;
+    padding-top: 44px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -166,13 +167,9 @@
 .watermelon {
   width: 249px;
   height: 387px;
-  left: 63px;
-  top: 868px;
-
   background: #a4cb66;
   border-radius: 500px;
-  margin-top: 24px;
-  margin-left: 35px;
+  margin: 44px;
 }
 @media only screen and (min-width: 768px) {
   .watermelon {
@@ -185,17 +182,14 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-
   letter-spacing: -0.04em;
   color: var(--color-text);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   padding-top: 28px;
   margin-bottom: 30px;
 }
+
 .img-water {
   width: 239px;
   margin-left: 5px;
@@ -224,7 +218,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-top: -106px;
+    margin-top: -166px;
     margin-left: 410px;
   }
 }
@@ -236,6 +230,13 @@
   padding: 12px 32px;
   border: 1px solid #ffffff;
   border-radius: 1000px;
+}
+@media only screen and (min-width: 768px) {
+  .hero-element {
+    width: 266px;
+    padding: 12px 32px;
+    gap: 10px;
+  }
 }
 .hero-title-three {
   width: 61px;
@@ -256,19 +257,18 @@
   flex-grow: 0;
 }
 .basketstr {
-  position: absolute;
   width: 249px;
   height: 387px;
-  left: 63px;
-  top: 1366px;
   background: #f5ce13;
   border-radius: 500px;
+  margin: 44px;
 }
 @media only screen and (min-width: 768px) {
   .basketstr {
-    left: 455px;
-    top: 953px;
-    margin-top: 10px;
+    width: 249px;
+    height: 387px;
+    margin-left: 422px;
+    margin-top: -493px;
   }
 }
 .img-basketstr {
