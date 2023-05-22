@@ -104,7 +104,6 @@
   .hero-title {
     max-width: 898px;
     height: 198px;
-    top: 124px;
     font-size: 64px;
     text-align: center;
     background-image: url(../img/hero/strawberry_desk@2x.webp),
@@ -112,7 +111,7 @@
     background-size: 120px, 183px;
     background-position: top -22px left 596px, top 79px left 13px;
     background-repeat: no-repeat;
-    margin: 3px 0 0 0;
+    margin: 3px -12px 1px 183px;
   }
 }
 .btn-hero {
