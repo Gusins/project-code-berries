@@ -2,15 +2,18 @@
   <div class="container">
     <div class="footer-logo">
       <div>
-        <img
-          class="footer-logo-img"
-          srcset="../img/girl_335.png 335w, ../img/girl_670.png 670w"
-          sizes=" (min-width: 1280px) 349px, (min-width: 768px) 349px, (min-width: 375px) 335px, 100vw"
-          src="../img/girl_335.png"
-          alt="girl with bananas in her hands"
-          width="349"
-          height="172"
-        />
+                <picture>
+                  <!-- Desk -->
+                  <source media="(min-width:1280px)" srcset="../img/girl_349.webp 1x, ../img/girl_698.webp 2x" type="image/webp" />
+                
+                  <!--  Tablet -->
+                  <source media="(min-width:768px)" srcset="../img/girl_349.webp 1x, ../img/girl_698.webp 2x" type="image/webp" />
+                  <!-- Phone -->
+                  <source media="(max-width:767px)" srcset="../img/girl_335.webp 1x, ../img/girl_670.webp 2x" type="image/webp" />
+                
+                  <img class="footer-logo-img" src="../img/footer-girl@1x.jpg" alt="girl with bananas in her hands" width="349"
+                    height="172" loading="lazy" />
+                </picture>
         <div class="footer-logo-icon-txt">
           <a class="footer-logo-icon" href="#">
             <svg
