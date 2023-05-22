@@ -11,7 +11,9 @@
     const isMenuOpen =
       openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
     openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
-    mobileMenu.classList.toggle('is-open');
+		mobileMenu.classList.toggle('is-open');
+		
+		document.body.classList.toggle('mobile_menu_open');
 
     const scrollLockMethod = !isMenuOpen
       ? 'disableBodyScroll'
@@ -28,5 +30,6 @@
     mobileMenu.classList.remove('is-open');
     openMenuBtn.setAttribute('aria-expanded', false);
     bodyScrollLock.enableBodyScroll(document.body);
-  });
+	});
+	
 })();

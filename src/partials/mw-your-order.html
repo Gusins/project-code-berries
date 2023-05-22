@@ -72,27 +72,32 @@
       type="name"
       name="user_name"
       placeholder="Enter full name..."
+      required
+      minlength="5"
     />
     <input
       class="modal-form-input"
       type="email"
       name="user_email"
       placeholder="Enter email..."
+      required
     />
     <input
       class="modal-form-input"
       type="card"
       name="user_card"
       placeholder="Enter card.."
+      required
+      pattern="\d*"
+      maxlength="19"
     />
-    <input
-      class="modal-form-input last-input"
-      type="comments"
+    <textarea
+      class="modal-form-comments"
       name="user-comments"
+      id="user-comments"
+      rows="10"
       placeholder="Enter comments..."
-    />
+    ></textarea>
     <button class="form-btn" type="submit">Submit</button>
   </form>
 </div>
-
-<textarea name="" id="" cols="30" rows="10"></textarea>
