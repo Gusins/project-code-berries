@@ -124,12 +124,10 @@
 	display: flex;
 	width: 292px;
 	margin: 0 auto;
+	position: relative;
 }
 
-.contacts-field {
-	position: relative;
-	width: 292px;
-}
+
 
 .contacts-input {
 	width: 292px;

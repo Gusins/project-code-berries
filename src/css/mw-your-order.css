@@ -1,13 +1,9 @@
 .mw-your-order {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  opacity: 1;
+  position: fixed;
   width: 335px;
   height: 903px;
   padding: 20px;
-
+	z-index: 30;
   background-color: #ffffff;
   border-radius: 20px;
 }
@@ -105,7 +101,7 @@
     line-height: 44px;
   }
 }
-.modal-close-btn {
+.modal__cross {
   border: none;
   width: 24px;
   height: 24px;
@@ -118,7 +114,7 @@
   cursor: pointer;
 }
 @media only screen and (min-width: 768px) {
-  .modal-close-btn {
+  .modal__cross {
     width: 28px;
     height: 28px;
     margin-top: -20px;
