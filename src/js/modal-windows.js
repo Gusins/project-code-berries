@@ -30,7 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
         /* После того как нашли нужное модальное окно, добавим классы
             подложке и окну чтобы показать их. */
         modalElem.classList.add('active');
-        overlay.classList.add('active');
+				overlay.classList.add('active');
+				document.body.classList.add('modal-open');
       }); // end click
 
    }); // end foreach
@@ -42,7 +43,8 @@ document.addEventListener('DOMContentLoaded', function() {
         var parentModal = this.closest('.modal');
 
         parentModal.classList.remove('active');
-        overlay.classList.remove('active');
+				overlay.classList.remove('active');
+				document.body.classList.remove('modal-open');
       });
 
    }); // end foreach

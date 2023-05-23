@@ -133,10 +133,10 @@ background: rgba(174, 19, 50, 0.1);
 
 .footer-icon-color{
     fill: #AE1332;
+    max-height: 100%;
  }
 
-@media only screen  and (min-width:768px) and (max-width:1279px)
-{
+@media only screen  and (min-width:768px) and (max-width:1279px){
     .footer-media-address {
         margin-top: 38px;
         margin-left: 171px;
