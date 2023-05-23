@@ -18,6 +18,54 @@
     padding: 40px;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .mw-your-order {
+    width: 891px;
+    height: 911px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .mw-your-order {
+    background-image: url("/img/Img-mw-your-order/Girl/Girl_desk471@1x.jpg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .mw-your-order {
+      background-image: url("/img/Img-mw-your-order/Girl/Girl_desk942@2x.jpg");
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      background-position-x: right;
+      background-size: 53%;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .mw-your-order {
+    background-image: url("/img/Img-mw-your-order/Girl/Girl_tab469@1x.jpg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .mw-your-order {
+      background-image: url("/img/Img-mw-your-order/Girl/Girl_tab938@2x.jpg");
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      background-position-x: right;
+      background-size: 41%;
+    }
+  }
+}
+
 .heder {
   display: flex;
   align-items: center;
@@ -27,6 +75,11 @@
 @media only screen and (min-width: 768px) {
   .heder {
     gap: 384px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .heder {
+    gap: 571px;
   }
 }
 
@@ -109,6 +162,12 @@
     height: 250px;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .list {
+    width: 257px;
+    height: 308px;
+  }
+}
 
 .lable-card {
   width: 100%;
@@ -156,11 +215,65 @@
     top: 88px;
   }
 }
-.strawberry-card {
+.strawberry-img {
+  width: 88px;
+  height: 95px;
 }
-.apple-card {
+@media only screen and (min-width: 768px) {
+  .strawberry-img {
+    width: 133px;
+    height: 148px;
+    left: 34px;
+    top: 88px;
+  }
 }
-.fruits-card {
+@media only screen and (min-width: 1280px) {
+  .strawberry-img {
+    width: 173px;
+    height: 196px;
+    left: 42px;
+    top: 98px;
+  }
+}
+.apple-img {
+  width: 106px;
+  height: 95px;
+}
+@media only screen and (min-width: 768px) {
+  .apple-img {
+    width: 172px;
+    height: 148px;
+    left: 14px;
+    top: 88px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .apple-img {
+    width: 229px;
+    height: 196px;
+    left: 14px;
+    top: 98px;
+  }
+}
+.fruits-img {
+  width: 107px;
+  height: 95px;
+}
+@media only screen and (min-width: 768px) {
+  .fruits-img {
+    width: 172px;
+    height: 148px;
+    left: calc(50% - 172px / 2);
+    top: 88px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .fruits-img {
+    width: 229px;
+    height: 196px;
+    left: 14px;
+    top: 98px;
+  }
 }
 .first-card {
 }
@@ -185,6 +298,12 @@
     top: 40px;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .card-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
 .card-text {
   position: absolute;
   left: 20px;
@@ -204,20 +323,18 @@
     top: 66px;
   }
 }
-.second-card {
-}
-
-.third-card {
+@media only screen and (min-width: 1280px) {
+  .card-text {
+    top: 76px;
+  }
 }
 .modal-form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  /* gap: 14px; */
   position: absolute;
   width: 295px;
-  /* height: 312px; */
   left: 20px;
   top: 509px;
 }
@@ -229,6 +346,12 @@
     top: 414px;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .modal-form {
+    top: 472px;
+  }
+}
+
 .modal-form-input {
   box-sizing: border-box;
   padding-left: 24px;
@@ -320,4 +443,15 @@
     height: 48px;
     padding: 15px 35px;
   }
+}
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-window {
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
