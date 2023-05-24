@@ -72,10 +72,7 @@
 .footer-logo-icon {
     display: inline-flex;
     gap: 8px;
-<<<<<<< Updated upstream
-=======
-   }
->>>>>>> Stashed changes
+}
 
 .footer-logo-text {
     font-weight: 700;
@@ -129,8 +126,8 @@
 
 @media only screen  and (min-width:768px) and (max-width:1279px){
     .footer-media-address {
-     height: 204px;
-     padding-top: 39px;
+    height: 204px;
+    padding-top: 39px;
     }
 }
 
@@ -148,8 +145,8 @@
 }
 
 @media only screen  and (max-width:1279px){
- .footer-socmedia {
-   margin-bottom: 44px;
+.footer-socmedia {
+margin-bottom: 44px;
   }
 }
 
@@ -160,14 +157,14 @@
 	border-radius: 10px;
 }
 
- 
+
 .footer-socmedia-icon:hover,
 .footer-socmedia-icon:focus
 {
 background: rgba(174, 19, 50, 0.1);
 }
 
- .footer-socmedia-icon {
+.footer-socmedia-icon {
     width: 40px;
     height: 40px;
 
@@ -191,7 +188,6 @@ background: rgba(174, 19, 50, 0.1);
     flex-direction: column;
     justify-content: center;
     font-style: normal;
-<<<<<<< Updated upstream
     gap: 20px;
 }
 
@@ -200,15 +196,9 @@ background: rgba(174, 19, 50, 0.1);
 .footer-point:hover, 
 .footer-point:hover:focus,
 .footer-point:hover, 
-.footer-point:hover:focus
-{
+.footer-point:hover:focus{
   color:currentColor;
 }
-=======
-}
-
->>>>>>> Stashed changes
-
 @media only screen and (max-width: 767px) {
 	.footer-point {
 		font-size: 14px;
