@@ -72,10 +72,7 @@
 .footer-logo-icon {
     display: inline-flex;
     gap: 8px;
-<<<<<<< Updated upstream
-=======
    }
->>>>>>> Stashed changes
 
 .footer-logo-text {
     font-weight: 700;
@@ -191,7 +188,6 @@ background: rgba(174, 19, 50, 0.1);
     flex-direction: column;
     justify-content: center;
     font-style: normal;
-<<<<<<< Updated upstream
     gap: 20px;
 }
 
@@ -204,10 +200,6 @@ background: rgba(174, 19, 50, 0.1);
 {
   color:currentColor;
 }
-=======
-}
-
->>>>>>> Stashed changes
 
 @media only screen and (max-width: 767px) {
 	.footer-point {
