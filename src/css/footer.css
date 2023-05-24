@@ -181,6 +181,7 @@ background: rgba(174, 19, 50, 0.1);
 .footer-icon-color{
     fill: #AE1332;
     max-height: 100%;
+
 }
 
 .footer-phone {
@@ -205,6 +206,7 @@ background: rgba(174, 19, 50, 0.1);
 	.footer-point {
 		font-size: 14px;
 		text-align: center;
+    font-style: normal;
 	}
 
 	.footer-tel {
