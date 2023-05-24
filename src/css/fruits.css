@@ -33,10 +33,6 @@
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   margin-bottom: 44px;
 }
-@media only screen and (min-width: 768px) {
-  .fruits-about {
-  }
-}
 
 .fruits-name {
   width: 122px;
@@ -111,7 +107,7 @@
   justify-content: space-between;
 }
 
-.fruits-img {
+.fruits-img-first {
   position: absolute;
   top: 75%;
   left: 50%;
