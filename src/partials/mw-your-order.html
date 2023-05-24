@@ -164,6 +164,9 @@
         name="Fruits_cadr"
         id="Fruits_cadr"
       />
+      <svg class="order-icon" width="6" height="6">
+        <use href="../img/icon.svg#pick"></use>
+      </svg>
       <div class="third-card">
         <h3 class="card-title">Fruits Basket</h3>
         <p class="card-text">Plant</p>
@@ -235,11 +238,11 @@
     <form class="modal-form" name="modal_form" autocomplete="off">
       <input
         class="modal-form-input"
-        type="name"
+        type="text"
         name="user_name"
         placeholder="Enter full name..."
         required
-        minlength="5"
+        pattern="[a-z]{4,8}"
       />
       <input
         class="modal-form-input"
@@ -250,12 +253,10 @@
       />
       <input
         class="modal-form-input"
-        type="card"
+        type="number"
         name="user_card"
         placeholder="Enter card.."
         required
-        pattern="/d*"
-        maxlength="19"
       />
       <textarea
         class="modal-form-comments"
