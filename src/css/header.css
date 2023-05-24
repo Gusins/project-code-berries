@@ -103,12 +103,14 @@
 .menu-container {
 	transform: translatex(100%);
 	transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-
+	
 	position: fixed;
 	top: 50px;
 	left: 0;
 	width: 100vw;
 	height: 100vh;
+	padding-top: 124px;
+	text-align: center;
 	background-color: var(--brand-color);
 	z-index: 999;
 }
@@ -160,7 +162,7 @@
 	line-height: 1.29;
 	letter-spacing: -0.04em;
 	text-align: center;
-	margin: 124px 0px 0px 0px;
+	margin-bottom: 16px;
 	color: var(--color-text);
 }
 .navigation-items:not(:last-child) {
