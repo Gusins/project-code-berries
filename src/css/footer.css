@@ -59,21 +59,20 @@
     flex-direction: column;
     max-width: 349px;
     align-items: center; 
-    gap: 20px;
 }
 
 @media only screen and (max-width: 767px) {
   .footer-logo {
     width: 100%;
-
   }
 }
 
 .footer-logo-icon {
     display: inline-flex;
     gap: 8px;
-}
+    margin-top: 20px;
 
+}
 .footer-logo-text {
     font-weight: 700;
     font-size: 14px;
@@ -126,8 +125,8 @@
 
 @media only screen  and (min-width:768px) and (max-width:1279px){
     .footer-media-address {
-    height: 204px;
-    padding-top: 39px;
+     height: 204px;
+     padding-top: 39px;
     }
 }
 
@@ -145,8 +144,8 @@
 }
 
 @media only screen  and (max-width:1279px){
-.footer-socmedia {
-margin-bottom: 44px;
+ .footer-socmedia {
+   margin-bottom: 44px;
   }
 }
 
@@ -157,14 +156,13 @@ margin-bottom: 44px;
 	border-radius: 10px;
 }
 
-
-.footer-socmedia-icon:hover,
-.footer-socmedia-icon:focus
+ 
+.footer-socmedia-icon:hover
 {
 background: rgba(174, 19, 50, 0.1);
 }
 
-.footer-socmedia-icon {
+ .footer-socmedia-icon {
     width: 40px;
     height: 40px;
 
@@ -183,22 +181,16 @@ background: rgba(174, 19, 50, 0.1);
     max-height: 100%;
 }
 
-.footer-phone {
+.footer-phone{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-style: normal;
-    gap: 20px;
 }
 
-.footer-phone:hover, 
-.footer-phone:hover:focus,
-.footer-point:hover, 
-.footer-point:hover:focus,
-.footer-point:hover, 
-.footer-point:hover:focus{
-  color:currentColor;
+.footer-point {
+	margin-top: 20px;
 }
+
 @media only screen and (max-width: 767px) {
 	.footer-point {
 		font-size: 14px;
