@@ -39,11 +39,9 @@
 }
 
 .fruits-name {
-  width: 122px;
-  height: 28px;
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: -0.04em;
@@ -52,19 +50,17 @@
 @media only screen and (min-width: 768px) {
   .fruits-name {
     font-size: 32px;
-    line-height: 38px;
+    line-height: 1.19;
     margin-bottom: 7px;
   }
 }
 
 .fruits-text {
-  width: 32px;
-  height: 18px;
   left: 24px;
   top: 100px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.29;
   display: flex;
   align-items: center;
   letter-spacing: -0.02em;
@@ -73,7 +69,7 @@
 @media only screen and (min-width: 768px) {
   .fruits-text {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
   }
 }
 .fruits-cost {
@@ -93,11 +89,18 @@
 .text-cost {
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.7;
+  line-height: 1.29;
   display: flex;
   align-items: center;
   letter-spacing: -0.04em;
   color: #ae1332;
+}
+
+@media only screen and (min-width: 768px) {
+  .text-cost {
+    font-size: 18px;
+    line-height: 1.33;
+  }
 }
 
 .fruits-card {
