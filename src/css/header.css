@@ -15,14 +15,24 @@
 	background-color: var(--color-text);
 }
 
+.header-container{
+	padding: 16px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+   .header-container{
+	padding: 11px 32px;
+  }
+}
+
 .logo {
 	display: inline-flex;
 	align-items: center;
 	gap: 8px;
 }
-.navigation a {
+/* .navigation a {
 	height: 50px;
-}
+} */
 .logo-text {
 	text-transform: uppercase;
 	font-weight: 700;
