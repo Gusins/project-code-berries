@@ -77,7 +77,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 24px;
   gap: 10px;
   width: 126px;
   height: 42px;
@@ -86,6 +85,14 @@
   margin-top: 6px;
   z-index: 5;
 }
+
+@media only screen and (min-width: 768px) {
+  .fruits-cost {
+    width: 136px;
+    height: 48px
+  }
+}
+
 .text-cost {
   font-weight: 500;
   font-size: 14px;
