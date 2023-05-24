@@ -36,12 +36,23 @@
     align-items: center;
     display: inline-flex;
     flex-direction: column;
+<<<<<<< Updated upstream
+=======
+    max-width: 349px;
+    align-items: center; 
+    gap: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-logo {
+    width: 100%;
+  }
+>>>>>>> Stashed changes
 }
 
 .footer-logo-icon {
     display: inline-flex;
     gap: 8px;
-    margin-top: 20px;
 
 }
 .footer-logo-text {
@@ -112,7 +123,8 @@
 }
 
  
-.footer-socmedia-icon:hover
+.footer-socmedia-icon:hover,
+.footer-socmedia-icon:focus
 {
 background: rgba(174, 19, 50, 0.1);
 }
@@ -144,11 +156,25 @@ background: rgba(174, 19, 50, 0.1);
 }
 
 .footer-phone {
+<<<<<<< Updated upstream
 font-style: normal;
+=======
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: normal;
+    gap: 20px;
+>>>>>>> Stashed changes
 }
 
-.footer-point {
-	margin-top: 20px;
+.footer-phone:hover, 
+.footer-phone:hover:focus,
+.footer-point:hover, 
+.footer-point:hover:focus,
+.footer-menu:hover, 
+.footer-menu:hover:focus
+{
+  color:currentColor;
 }
 
 @media only screen and (max-width: 767px) {
