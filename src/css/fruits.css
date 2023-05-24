@@ -113,16 +113,10 @@
 
 .fruits-img-gallery {
   position: absolute;
-  bottom: 20px;
-  left: 30px;
+  top: 75%;
+  left: 50%;
+	transform: translate(-50%, -75%);
 }
-@media only screen and (max-width: 374px) {
-  .fruits-img-gallery {
-    width: 100%;
-    left: 2%;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .fruits-list {
     display: flex;
