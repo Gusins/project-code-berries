@@ -4,16 +4,11 @@
 .hero-container {
 	position: relative;
 }
-@media only screen and (min-width: 768px) {
-	.hero-container {
-		height: 1475px;
-	}
-}
+
 .hero-title {
 	padding-top: 56px;
 	margin-left: auto;
 	margin-right: auto;
-
 	position: relative;
 	z-index: 2;
 
@@ -23,22 +18,29 @@
 	color: var(--color-text);
 	text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 	text-align: center;
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+}
+.hero-title-wrap {
+	display: block;
 }
 @media only screen and (max-width: 767px) {
 	.hero-title {
 		max-width: 335px;
 	}
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
 	.hero-title {
 		padding-top: 64px;
 		font-size: 50px;
 		line-height: 1.08;
+		max-width: 704px;
 	}
 }
+
 @media only screen and (min-width: 1280px) {
 	.hero-title {
-		width: 898px;
+		max-width: 872px;
 		font-size: 64px;
 		line-height: 1;
 	}
@@ -53,58 +55,48 @@
 .hero-img-strawberry {
 	position: absolute;
 	z-index: 1;
-	right: -2px;
+	right: 1%;
 	top: 31px;
 	margin-top: 30px;
 }
 @media only screen and (min-width: 768px) {
 	.hero-img-strawberry {
-		width: 108px;
+		max-width: 108px;
 		right: 37px;
-		margin-top: 42px;
 	}
 }
 @media only screen and (min-width: 1280px) {
 	.hero-img-strawberry {
-		width: 120px;
+		max-width: 120px;
 		right: 223px;
 	}
 }
 
 .hero-img-banana {
 	position: absolute;
-	left: -13px;
+	left: 1%;
 	top: 106px;
 	transform: rotate(20deg);
 }
 @media only screen and (min-width: 768px) {
 	.hero-img-banana {
-		width: 132px;
+		max-width: 132px;
 		left: 53px;
 		top: 180px;
 	}
 }
 @media only screen and (min-width: 1280px) {
 	.hero-img-banana {
-		width: 183px;
+		max-width: 183px;
 		left: 255px;
 		top: 220px;
 	}
 }
-.img-card {
-	margin-bottom: 71px;
-}
-@media only screen and (min-width: 768px) {
-	.img-card {
-		width: 452px;
-		margin-top: 18px;
-	}
-}
+
 .gradiend-border {
 	position: relative;
 	z-index: 1;
-	top: -126px;
-	left: 0px;
+	top: -65px;
 	background: transparent;
 	padding: 0.5rem 1rem;
 	background-image: linear-gradient(90deg, var(--brand-color), var(--brand-color)),
@@ -113,26 +105,26 @@
 	background-origin: border-box;
 	border: 1px solid transparent;
 	border-radius: 500px;
-	max-width: 335px;
-	max-height: 509px;
-	padding: 12px 12px 13px 12px;
 	margin-bottom: -44px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 369px) {
+	.gradiend-border {
+		height: 134vw;
+	}
+}
+@media only screen and (min-width: 370px) and (max-width: 767px) {
 	.gradiend-border {
 		max-width: 486px;
-		max-height: 742px;
-		top: -196px;
-		left: 139px;
-		padding: 20px 17px;
+		height: 496px;
 	}
 }
-@media only screen and (min-width: 1280px) {
-	.gradiend-border {
-		left: 397px;
-		top: -200px;
+@media only screen and (min-width: 768px) {
+.gradiend-border {
+		max-width: 452px;
+		height: 677px;
 	}
 }
+
 .img-card {
 	background: var(--color-text);
 	border-radius: 500px;
@@ -153,7 +145,7 @@
 	border-radius: 50%;
 	background-color: var(--color-text);
 	border: none;
-	z-index: 200;
+	z-index: 10;
 	bottom: -18px;
 	left: 50%;
 }
