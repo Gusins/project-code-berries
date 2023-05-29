@@ -244,12 +244,20 @@
 	margin: 24px 32px;
 }
 @media only screen and (min-width: 768px) {
+<<<<<<< Updated upstream
 	.hero-element-list {
 		gap: 12px 8px;
 	}
 	.hero-element-list:nth-child(3d){
 		margin-right: 15px;
 	}
+=======
+  .hero-element-list {
+    gap: 12px 8px;
+    margin-top: -76px;
+    margin-left: 397px;
+  }
+>>>>>>> Stashed changes
 }
 
 @media only screen and (min-width: 1280px) {
@@ -266,7 +274,15 @@
 	margin-right: 5px;
 	margin-bottom: 8px;
 }
-
+@media only screen and (min-width: 768px) {
+  .hero-element:nth-child(3) {
+    width: 115px;
+    margin-left: 25px;
+  }
+  .hero-element:nth-child(4) {
+    width: 110px;
+  }
+}
 .hero-title-three {
 	width: 61px;
 	height: 14px;
